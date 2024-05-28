@@ -1,0 +1,33 @@
+- API
+	- [[@GlobalScope]]
+	- Node
+		- void _ready() virtual
+			- 当节点就绪时被调用
+			- 子节点全部ready后父节点才会触发ready
+			- 子节点中等待父节点的ready可以使用 `await owner.ready`
+		- void _unhandled_input(event: InputEvent) virtual
+			- 获取到一个未被消耗的输入监听
+	- InputEvent
+		- bool is_action_pressed(action: StringName, allow_echo: bool = false, exact_match: bool = false) const
+			- 当事件被按下时
+		- bool is_action_released(action: StringName, exact_match: bool = false) const
+			- 当事件被释放时
+	- CharacterBody2D
+		- velocity : Vector2
+			- 当前的速度向量,单位为像素每秒
+		- bool is_on_floor() const
+			- 如果最近一次调用`move_and_slide`时,该物体和地板发生了碰撞,返回`true`,否则返回`false`
+		- bool is_on_wall() const
+			- 如果最近一次调用`move_and_slide`时,该物体和墙壁发生了碰撞,返回`true`,否则返回`false`
+		- bool move_and_slide()
+			- 根据`velocity`移动物体
+	- TiledMap
+		- tile_set: TileSet
+			- 指定的图块集
+		- Rect2i get_used_rect() const
+			- 返回该地图包围矩形,包围所有图层中已经使用的非空图块
+			- 返回值为图块的数量
+	- TileSet
+		- tile_size: Vector2i
+			- 图块的大小
+-
