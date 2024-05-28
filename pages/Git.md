@@ -1,6 +1,6 @@
 - 安装
 	- https://git-scm.com/
-- 配置
+- 配置SSH
 	- https://blog.csdn.net/Yaoyao2024/article/details/132123525
 - 教程
 	- https://blog.csdn.net/name_sakura/article/details/124427406
