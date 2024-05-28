@@ -1,6 +1,6 @@
 - 安装
 	- https://code.visualstudio.com/
-- vscode 需要安装的插件:
+- 需要安装的插件:
 	- Chinese (Simplified) (简体中文) Language Pack for Visual Studio Code
 	- Markdown All in One
 	- Markdown Preview Enhanced
