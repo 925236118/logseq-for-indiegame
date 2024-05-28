@@ -1,4 +1,4 @@
-- API
+- API笔记
 	- [[@GlobalScope]]
 	- [[Node]]
 	- [[InputEvent]]

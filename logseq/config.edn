@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["Godot 笔记"]
+ :favorites ["独立游戏开发总览" "Godot 笔记"]
 
  ;; Set flashcards interval.
  ;; Expected value:
